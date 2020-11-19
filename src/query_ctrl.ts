@@ -174,7 +174,7 @@ export class KDBQueryCtrl extends QueryCtrl {
         this.metricColumnSegment = this.uiSegmentSrv.newSegment('dummy');
 
         if(!this.target.timeColumn || this.target.timeColumn == 'Select Field'){
-            this.timeColumnSegment = this.uiSegmentSrv.newSegment('Select Field');
+            this.timeColumnSegment = this.uiSegmentSrv.newSegment('Select Time');
         }
         //else populate the pre-existing value
         else {
